@@ -20,6 +20,7 @@
     <modules>
         <module>ApplicationService</module>
         <module>VideoEncodingService</module>
+        <module>AuthenticationService</module>
     </modules>
     <dependencyManagement>
         <dependencies>

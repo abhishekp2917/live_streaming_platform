@@ -1,4 +1,4 @@
-package org.example.model;
+package org.example.pojo;
 
 import lombok.*;
 import java.io.File;
@@ -12,8 +12,6 @@ import java.util.Map;
 public class EncodedVideo {
 
     private Map<String, File> resolutionToFileMap;
-
-    private File manifestFile;
-
+    private File masterPlaylist;
     private String videoFormat;
 }

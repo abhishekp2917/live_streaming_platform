@@ -3,7 +3,7 @@ package org.example.service;
 import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 
-public interface IVideoUploadService {
+public interface IVideoUploadService <T> {
 
-    boolean upload(MultipartFile file) throws IOException;
+    T upload(MultipartFile file) throws IOException;
 }
