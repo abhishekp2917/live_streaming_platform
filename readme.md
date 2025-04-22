@@ -89,3 +89,33 @@ sudo rabbitmqctl set_permissions -p / username ".*" ".*" ".*"
 sudo rabbitmqctl add_vhost live-streaming-platform
 sudo rabbitmqctl set_permissions -p live-streaming-platform username ".*" ".*" ".*"
 ```
+
+
+
+
+
+#  FFMPEG Setup Guide on Video Encoding
+
+This guide helps you install ffmpeg build which will be used to encode the uploaded video in various resolutions
+---
+
+## 📦 Step-by-Step Setup
+
+### 1. Download the ffmepg build zip file from below link 
+
+```
+https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z
+```
+
+### 2. Add the 'ffmpeg.exe' parent bin folder path to environment variable
+
+```
+PATH = "C:\ffmpeg-2025-04-21-git-9e1162bdf1-full_build\bin"
+```
+
+### 3. Run below command on CMD to validate the installation
+
+```
+ffmpeg --version
+```
+
